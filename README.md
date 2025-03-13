@@ -1,6 +1,6 @@
 # Tbase - Simple Socket-Based Backend Library
 
-![npm](https://www.npmjs.com/package/@tomkoooo/tbase) ![License](https://www.npmjs.com/package/@tomkoooo/tbase)
+![npm](https://img.shields.io/npm/v/@tomkoooo/tbase) ![License](https://img.shields.io/npm/l/@tomkoooo/tbase)
 
 **Tbase** is a lightweight, socket-based backend solution packed into a single npm library. With just one `Client` class and a prebuilt server, you can set up a fully functional backend in as little as 10 lines of code. No need for complex API routes or server modifications—Tbase handles it all out of the box.
 
@@ -39,6 +39,10 @@ const { Client } = require('tbase');
 // Basic client setup
 const client = new Client(); // Uses default server at localhost:3000
 ```
+
+**YOU NEED THIS SERVER.JS FOR THE WEBSOCKET CONNECTION**
+[get the server.js file (nextjs)](https://github.com/Tomkoooo/tbase-demo/blob/main/server.js)
+Change the imports for the npm package.
 
 #### Database Connection
 Connect to MongoDB or MySQL with a simple configuration:

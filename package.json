@@ -1,6 +1,6 @@
 {
   "name": "@tomkoooo/tbase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript-based socket client for out-of-the-box backend for React",
   "type": "module",
   "main": "./lib/index.js",
